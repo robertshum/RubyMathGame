@@ -1,0 +1,38 @@
+Player
+  name
+  lives: 3
+
+  loseLife
+    return current life
+
+main
+  init Game
+  start game?
+
+Game
+  init two players
+  Player 1
+
+  turn = player 1
+  correctAnswer = ?
+
+  while loop (true?)
+    puts 'new turn'
+    puts player 1 + genNewQuestion
+    gets.chomp
+    if(!correctAnswer)
+      puts 'really, ' player 1?
+      deduct scores
+
+    //check either scores
+    if(thereIsAwinner)
+      winner = player x
+      break;
+
+    //correct answer
+    puts player 1 life, player 2 life
+
+    //switch players
+
+  puts player x wins, with score of
+  puts gbye!
